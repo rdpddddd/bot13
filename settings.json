@@ -1,0 +1,58 @@
+{
+  "bot-account": {
+    "username": "Server_IS_ON"
+  },
+
+  "server": {
+    "ip": "RIO_ONE.aternos.me",
+    "port": 12352,
+    "version": "1.20.4"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "كلمة المرور"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false,
+      "jump": true,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 20,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": true,
+        "radius": 20
+      }
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 240,
+
+      "messages": [
+        "اهلا انا خدمه 24 ساعه في الخدمه",
+        "لقد تم تطويري بوسطه yyiye2"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 10000
+  }
+}
